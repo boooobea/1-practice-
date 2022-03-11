@@ -1,7 +1,7 @@
 package StudyPaper;
 
 public class Cookie {
-//Field
+//Field - constructor
 		String company = "과자가게";
 		String model;
 		String tasty;
