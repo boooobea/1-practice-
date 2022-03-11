@@ -14,7 +14,7 @@ public class Car_instance {
 	
 	
 	//3. 인스턴스 메소드
-	void setSpeed(int speed) {	   			// set + 필드이름 => setter(***)
+	void setSpeed(int speed) {				// set + 필드이름 => setter(***)
 		this.speed=speed;					// 현재의 필드값을 변경할 때 
 	}//setSpeed
 	
@@ -31,7 +31,7 @@ public class Car_instance {
 	
 // ------
 	
-	int age; 				//instance field
+	int age;				//instance field
 	
 	int getAge() {			//getter for age
 		return this.age;
