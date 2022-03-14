@@ -8,7 +8,7 @@ public class Television {
 	static String model = "tv";
 	static String info;
 	
-	double price; 								//인스턴스필드 
+	double price;								//인스턴스필드 
 	
 	static {									//static initializer
 		info = company + " - " + model;
@@ -18,7 +18,7 @@ public class Television {
 	
 	void instanceMethod1() {			//인스턴스 메소드
 		System.out.println(this.price);			//ok : 인스턴스 필드 사용
-		System.out.println(Television.model); 	//ok : 정적 필드 사용
+		System.out.println(Television.model);	//ok : 정적 필드 사용
 		
 		this.instanceMethod2();					//ok : 인스턴스 메소드 사용 
 		Television.staticMethod();				//ok : 정적 메소드 사용가능
@@ -31,7 +31,7 @@ public class Television {
 
 	
 	void instanceMethod2() {			//인스턴스 메소드
-		System.out.println(this.price); 		//ok : 같은클래스 내부에서는 객체 생성 없이 사용가능 
+		System.out.println(this.price);			//ok : 같은클래스 내부에서는 객체 생성 없이 사용가능 
 	}//instanceMethod
 	
 	
