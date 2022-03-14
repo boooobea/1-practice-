@@ -7,7 +7,7 @@ public class ArrayListTest2 {				//삽입정렬(insertion sort)
 	//배열 출력할때는 Arrays.toString()메소드 사용 
 	//배열 순회(traverse)할때는 배열 인덱스 필요할때 classical for/필요없을때 enhanced for 
 	//출력결과 정렬, 정렬을 위한 배열 원소간 자리바꿈의 횟수와 epoch 출력 
-	//(int)(Math.raindom()*(to-from+1)) + from    
+	//(int)(Math.raindom()*(to-from+1)) + from  
 	public static void main(String[] args) {
 
 		int to = 200;
