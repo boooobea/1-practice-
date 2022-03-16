@@ -4,8 +4,6 @@
 //@MyAnnotation
 package Annotation.temp;
 
-import StudyPaper.MyAnnotation;
-
 ////class 
 /*필드타입+변수명 = 사이에는 다른것을 첨부할 수 없다.필드, 메소드, 지역변수, 매개변수 동일*/
 
