@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 
-//java Refrection API를 이용하여, Service클래스에 붙여놓은 MyAnnotation이름의 어노테이션 정보를 가져오기
+//java Reflection API를 이용하여, Service클래스에 붙여놓은 MyAnnotation이름의 어노테이션 정보를 가져오기
 
 public class MyAnnotationExample {
 	
