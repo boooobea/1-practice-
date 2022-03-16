@@ -4,8 +4,6 @@
 //@MyAnnotation
 package Annotation.temp;								//package : XX NOT permitted
 
-import StudyPaper.MyAnnotation;
-
 //class - OK 
 @MyAnnotation
 public class Service {							//class : OK 
@@ -42,6 +40,7 @@ public class Service {							//class : OK
 	@MyAnnotation							
 	public void instanceMethode(@MyAnnotation int age) {	
 												//Parameter : OK
+		System.out.println("Servicd::instanceMethod inboked");
 		@MyAnnotation
 		int tmp;								//Local variable : OK
 	}//instanceMethod							//instance Method : OK
