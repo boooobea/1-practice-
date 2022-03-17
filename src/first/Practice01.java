@@ -15,12 +15,12 @@ public class Practice01 {
 		int num = scanner.nextInt();
 		
 		if(num>=50) {
-			System.out.println("입력하신 숫자는 '"+num+"'으로 50이상의 정수입니다.");
+			System.out.println("입력하신 숫자='"+num+"', 50이상의 정수입니다.");
 		} else {
-			System.out.println("입력하신 숫자는 '"+num+"'으로 50이하의 정수입니다.");
+			System.out.println("입력하신 숫자='"+num+"', 50이하의 정수입니다.");
 		}//if 
 	
-		
+	
 //2. 정수 한개를 입력 받아서, 그 수가 3의 배수인지 판단해보자
 		
 		Scanner scanner = new Scanner(System.in);
@@ -33,6 +33,8 @@ public class Practice01 {
 			System.out.println("입력하신 숫자는 3의배수가 아닙니다.> "+num);
 		}
 
+	}//main
+}//end class
 		
 		
 //3. 코리아 초등학교에서 1학년부터 4학년까지 중간고사 시험을 보았다.
@@ -63,7 +65,10 @@ public class Practice01 {
 		} else {
 		System.out.println("!!! 점수를 다시 입력하세요 !!!");
 		}//if
+	}//main
+}//end class
 
+		
 //4. 키를 입력받은후 110cm 이상일시 놀이기구 탑승이 가능하다. 
 // 키가 110cm미만일시 보호자가 옆에 있는지 체크 
 // 있으면 탑승가능, 없으면 다음에 보호자랑 같이 오세요 문구 출력 
@@ -86,8 +91,9 @@ public class Practice01 {
 				System.out.println("다음에 보호자랑 같이 오세요.");
 			}
 		}//if
-*/
-	
+	}//main
+}//end class
+*/	
 //5. 두 정수 A, B를 입력받고 비교하는 프로그램
 		
 		Scanner scanner = new Scanner(System.in);
@@ -96,12 +102,13 @@ public class Practice01 {
 		int b = scanner.nextInt();
 		
 		if(a > b) {
-			System.out.println(">");
+			System.out.println(a+">"+b);
 		} else if(a < b) {
-			System.out.println("<");
+			System.out.println(a+"<"+b);
 		} else if(a==b) {
-			System.out.println("==");
-		}
-		
+			System.out.println(a+"=="+b);
+		}//if
 	}//main
 }//end class
+		
+
