@@ -32,7 +32,7 @@ public class CarExample {
 			
 			}//switch
 			System.out.println("---------------------------------------");
-
+   
 		}//for
 	}//main
 	
