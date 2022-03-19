@@ -12,7 +12,7 @@ public class Car {
 	Tire backLeftTire = new Tire("뒤왼쪽", 3);
 	Tire backRightTire = new Tire("뒤오른쪽", 4);
 	
-	
+	 
 	//2. 생성자 
 	
 	
