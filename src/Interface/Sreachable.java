@@ -1,7 +1,7 @@
 package Interface;
 
 
-public interface Serachable {
+public interface Sreachable {
 
 	public abstract void sreach(String url);
 	
