@@ -3,7 +3,7 @@ package Interface;
 
 public class SmartTelevision 
 	implements RemoteControl, Sreachable{
-
+//interface - 다중 인터페이스
 	
 	private int volume;
 	
