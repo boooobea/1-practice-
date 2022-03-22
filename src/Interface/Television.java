@@ -32,6 +32,15 @@ public class Television implements RemoteControl{
 		}//if-else
 		System.out.println("현재 TV 볼륨:" + volume);
 	}//setVolume
+
+	
+	//3. default 메소드 재정의
+	@Override
+	public void setMute(boolean mute) {
+		System.out.println("Television::setMute() invoked.");
+	}//setMute
+	
+	
 	
 	
 }//end class
