@@ -31,8 +31,9 @@ public class RemoteControlExample_2 {
 			
 		};//익명구현객체 
 		
+		//해당 인터페이스의 객체만 인터페이스 구현
 		rc3.sreach("http://ww");				//다형성-2
-	
+//		rc3.setMute(fasle);						//해당인터페이스에 디폴트메소드 없음.
 		
 	}//main
 	
