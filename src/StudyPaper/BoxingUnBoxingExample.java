@@ -31,10 +31,10 @@ public class BoxingUnBoxingExample {
 		
 		Boolean bool3 = Boolean.valueOf(true);
 		Boolean bool4 = Boolean.valueOf("true");
-		//기본값으로부터 래퍼타입의 객체를 생성해 내는 것 
+		//valueof : 기본값으로부터 래퍼타입의 객체를 생성해 내는 메소드 
 		
 		Boolean bool5 = Boolean.parseBoolean("false");
-		//문자열로부터 기본타입의 값을 만들어내는것 
+		//parse xxx : 문자열을 받아 기본타입으로 돌려주는 메소드 
 		System.out.println("bool5: " + bool5);
 //		---
 		boolean b1 = bool1.booleanValue();
