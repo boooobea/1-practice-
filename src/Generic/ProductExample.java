@@ -1,7 +1,7 @@
 package Generic;
 
 
-
+//멀티타입 파라미터 
 public class ProductExample {
 
 	public static void main(String[] args) {
