@@ -9,7 +9,7 @@ import lombok.Setter;
 @AllArgsConstructor
 
 //Function-1
-public class Studendt {
+public class Student {
 
 	private String name;
 	private int englishScore;
