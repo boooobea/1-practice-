@@ -4,7 +4,7 @@ package Inheritance.instanceOf;
 //다형성-1에 의해, 부모타입의 참조변수에 저장되어있는 자식객체를 다시 빼낼때(강제형변환),
 //자식타입을 잘못알고 하면, ClassCastException 예외가 발생가능.
 //먼저, 자식타입을 검사 후 맞으면, 그때 안전하게 강제형변환을 통해 빼내야한다. 
-//**instanceof** 라는 연산자가 필요
+//**instanceof** 라는 (Pattern Matching) 연산자가 필요
 public class InstanceofExample {
 
 	public static void method1(Parent parent) {	//*** 매개변수의 다형성-1
