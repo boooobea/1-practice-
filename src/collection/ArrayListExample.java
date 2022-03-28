@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayListExample {
-
+  
 	// List : (1) 순서보장(인덱스 번호 사용하여 조작)  (2) 중복허용 
 	//		  (3) 빈번한 추가, 삭제가 일어나면 적합하지 않다. 
 	public static void main(String[] args) {
