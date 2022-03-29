@@ -3,7 +3,7 @@ package collection;
 import java.util.NavigableSet;
 import java.util.TreeSet;
 
-//TreeSet - 범위검색 
+//TreeSet - 범위검색   
 public class TreeSetExample3 {
 
 	public static void main(String[] args) {
