@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 
 //TreeSet - 이진트리를 통해, 요소를 미리 정렬시키고 
-// 정렬된 데이터를 이용해서, 빠른 검색을 해줄 수 있다. 
+// 정렬된 데이터를 이용해서, 빠른 검색을 해줄 수 있다.   
 public class TreeSetExample {
 
 	public static void main(String[] arg) {
