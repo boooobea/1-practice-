@@ -23,6 +23,7 @@ public class ReadExample3 {
 			InputStream is1 = new FileInputStream("C:/temp/TTT.txt");
 			InputStream is2 = new FileInputStream("C:/temp/TTT.txt");
 			
+			// 왼쪽 <- 오른쪽 정해진 순서대로 close() 
 			try (is; is1; is2;) {
 				
 					while(true) { 
