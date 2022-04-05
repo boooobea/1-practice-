@@ -17,7 +17,7 @@ public class ClassA implements Serializable{
 	ClassB field2 = new ClassB();
 	
 	
-	//정적필드도 직렬화에 포함될까 ? > xx
+	//정적필드 직렬화 ---> xx
 	static int field3 = 1000; 
 	
 	//직렬화에서 제외할 필드에는 transient 키워드를 붙인다. 
