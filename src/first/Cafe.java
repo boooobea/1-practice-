@@ -107,7 +107,6 @@ public class Cafe {
 			System.out.println("[결제가 완료되었습니다. 맛있게 드세요!]");
 			int change = money-this.TotalPrice;
 			System.out.println("\n[잔액 :" + change + "]");
-			
 			return change;
 		}//if-else
 	}//payment
