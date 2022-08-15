@@ -2,7 +2,7 @@ package Lambda;
 
 
 //Functional Interface(함수적 인터페이스) 
-
+ 
 @FunctionalInterface 
 public interface MyFunctionalInterface {
 

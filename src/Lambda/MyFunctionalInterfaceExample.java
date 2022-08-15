@@ -3,7 +3,7 @@ package Lambda;
 
 //Lambda expressions - 기본문법
 public class MyFunctionalInterfaceExample {
-
+ 
 	public static void main(String[] args) {
 		
 		MyFunctionalInterface fi;
