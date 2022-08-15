@@ -25,8 +25,9 @@ public class OperatorExample {
 //		int applyAsInt(int left, int right);
 		int max = maxOrMin( 
 				(a, b) -> {
-					if(a>=b) return a;
-					else return b; 
+//					if(a>=b) return a;
+//					else return b; 
+					(a>b) ? a: b
 					}//람다식 : 최대값을 가지는 원소를 추출하는 익명구현객체 생성 
 				);
 		System.out.println("최대값 : " + max);

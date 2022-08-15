@@ -46,9 +46,9 @@ public class WildCardExample {
 		Course<Worker> workerCourse = new Course<Worker>("직장인과정",5);
 		workerCourse.add(new Worker("직장인"));
 //		
-		WildCardExample.registerCourse(workerCourse);
-//		WildCardExample.registerCourseStudent(workerCourse);		//xx
-		WildCardExample.registerCourseWorker(workerCourse);			//ok
+//		WildCardExample.registerCourse(workerCourse);
+////		WildCardExample.registerCourseStudent(workerCourse);		//xx
+//		WildCardExample.registerCourseWorker(workerCourse);			//ok
 		
 //		---
 		
@@ -56,18 +56,18 @@ public class WildCardExample {
 		studentCourse.add(new Student("학생"));
 		studentCourse.add(new HighStudent("고등학생"));
 //		
-		WildCardExample.registerCourse(studentCourse);
-		WildCardExample.registerCourseStudent(studentCourse);		//ok
-//		WildCardExample.registerCourseWorker(studentCourse); 		//xx
+//		WildCardExample.registerCourse(studentCourse);
+//		WildCardExample.registerCourseStudent(studentCourse);		//ok
+////		WildCardExample.registerCourseWorker(studentCourse); 		//xx
 		
 //		---
 		
 		Course<HighStudent> highstudentCourse = new Course<HighStudent>("고등학생과정",5);
 		highstudentCourse.add(new HighStudent("고등학생"));
 //		
-		WildCardExample.registerCourse(highstudentCourse);
-		WildCardExample.registerCourseStudent(highstudentCourse);	//ok
-//		WildCardExample.registerCourseWorker(highstudentCourse);	//xx
+//		WildCardExample.registerCourse(highstudentCourse);
+//		WildCardExample.registerCourseStudent(highstudentCourse);	//ok
+////		WildCardExample.registerCourseWorker(highstudentCourse);	//xx
 		
 	}//main
 	

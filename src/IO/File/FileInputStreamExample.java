@@ -20,11 +20,11 @@ public class FileInputStreamExample {
 		FileInputStream fis = 
 			new FileInputStream("C:/app/workspace/jse/project1/src/NIO/ScannerFile/FileInputStreamExample.java");
 			int data;
-			StringBuffer sb = new StringBuffer();
+			StringBuffer sb = new StringBuffer("UTF-8");
 			
 			while( (data = fis.read()) != -1) {	 //EOF를 만날때까지 반복해서 읽음 
 				
-//				System.out.write(dataread,0,dataread.length);	 	//System.out : printStream <InputStream(write메소드호출)   
+//				System.out.write(data);	 	//System.out : printStream <InputStream(write메소드호출)   
 				sb.append((char)data);		
 			}//while
 			

@@ -16,7 +16,7 @@ public class SerialVersionUIDExample {
 		//3. 직렬화 객체생성(Serializable)
 		ClassC classC = new ClassC();
 		classC.field1 = 1;		//int타입의 인스턴스필드 초기화 
-		
+		classC.field2 = 12120;
 		//4. 객체출력
 		oos.writeObject(classC);
 		

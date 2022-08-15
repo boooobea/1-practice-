@@ -8,9 +8,9 @@ public class MyFunctionalInterfaceExample {
 		
 		MyFunctionalInterface fi;
 		
-		Sample ttt = new Sample();
-		System.out.println("1.ttt :" + ttt);
-//		ttt.instanceMethod();
+//		Sample ttt = new Sample();
+//		System.out.println("1.ttt :" + ttt);
+////		ttt.instanceMethod();
 		
 		
 /*		--- 문법, 생략조건 ---
@@ -35,6 +35,7 @@ public class MyFunctionalInterfaceExample {
 		
 		
 /*		--- 메소드 실행을 위해 객체 생성 -- 
+ */		
  
 		//1st. method : 직접 구현클래스 선언 
 		fi = new MyFunctionalInterfaceimpl(); 	//다형성-1
@@ -56,7 +57,6 @@ public class MyFunctionalInterfaceExample {
 				System.out.println("anonymous by lambda::method() invoked.");
 		};//람다식을 이용한 익명구현객체 
 		fi.method();							//다형성-2
-*/		
 		
 		
 /*		--- 기본 문법 --- 
