@@ -1,6 +1,5 @@
 package first;
 
-import java.security.KeyStore.Entry;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -102,6 +101,9 @@ public class Cafe {
 	int payment(int money) {
 		if(money<this.TotalPrice) {
 			System.out.println("[잔액이 부족합니다.(결제취소)]");
+			money = 0;
+			this.cafeMenu();
+			System.out.println("\n[잔액 :" + money + "]");
 			return money;
 		} else {
 			System.out.println("[결제가 완료되었습니다. 맛있게 드세요!]");
