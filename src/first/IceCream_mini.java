@@ -9,7 +9,7 @@ public class IceCream_mini {
  * 4. 메뉴 추가 기능 
  * 5. 총 수익 확인 
  * */
-	
+	 
 	static String[] ministore = {"딸기","초코","바닐라","피스타치오","요거트","모카"} ;	//미니상점
 	static int[] prices = { 3000, 3000, 3000, 4500, 4000, 3500 };//가격
 	static int[] stock = { 5, 5, 5, 5, 5, 1};				//재고
